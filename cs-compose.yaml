@@ -1,0 +1,9 @@
+services:
+  charge-station:
+    image: 'chargestation:0.0.1-SNAPSHOT'
+    environment:
+      - 'spring.liquibase.contexts=test'
+      - 'spring.datasource.url=jdbc:postgresql://postgres:5432/chargestation'
+      - 'spring.elasticsearch.uris=http://elastic:9200'
+    ports:
+      - '8080:8080'

@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=chargestation'
+      - 'POSTGRES_PASSWORD=welcome'
+      - 'POSTGRES_USER=user'
+    ports:
+      - '5432:5432'
+
+  elastic:
+    image: 'elasticsearch:8.8.0'
+    environment:
+      - 'discovery.type=single-node'
+      - 'xpack.security.enabled=false'
+    ports:
+      - '9200:9200'
