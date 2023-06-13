@@ -1,3 +1,8 @@
+### Coding Challenge
+
+The goal of the challenge is to create a very simple Spring Boot application for managing charge points used to charge electric vehicles.
+Requirement.md contains detailed explanation of the goals and behavior of application.
+
 To run application in the host environment, use command:
 
 ```
