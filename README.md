@@ -1,7 +1,10 @@
-### Coding Challenge
+## Coding Challenge
 
 The goal of the challenge is to create a very simple Spring Boot application for managing charge points used to charge electric vehicles.
-Requirement.md contains detailed explanation of the goals and behavior of application.
+
+File **requirements.md** contains detailed explanation of the goals and behavior of application.
+
+## Getting application up and running
 
 To run application in the host environment, use command:
 
@@ -21,7 +24,7 @@ Use root URL to access Swagger UI:
 http://localhost:8080/
 ```
 
-Api understands base64 auth headers, default credentials:
+API understands BASE64 auth headers, default credentials:
 
 ```
 admin admin
