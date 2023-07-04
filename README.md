@@ -1,3 +1,17 @@
+## Retrospective: For those of you who are looking test task solution for NetValue (New Zealand)
+
+* This task has been marked as intermediate level with tendency to hacker-style code.
+
+* Actually task has been written following YAGNI principle with minimum effort, keeping in mind this won't be developed more after submission. So there are some simplifications made like returning entities for admin account from controller.
+
+* Program is written around UseCase class which holds business logic, for such a small task I don't see any reason to put everything in separate folders following 3-layer architecture (mine actually implements hexagonal, seems interviewer didn't know that)
+
+* No unneeded interfaces, every line of code does what it's been required, no bullshiting around bloating simple application with interfaces or factories of factories.
+  
+* Program heavily focues on business logic corner-cases, security and who can see what. Although it was not count, since insecure applications bloated with enterprise shit got "senior work" labels.
+
+* After all it seems that I've dodged bullet, working with people who don't give a shit about their requirements but bloat small applications with enterprise patterns won't make you a good developer.
+
 ## Coding Challenge
 
 The goal of the challenge is to create a very simple Spring Boot application for managing charge points used to charge electric vehicles.
